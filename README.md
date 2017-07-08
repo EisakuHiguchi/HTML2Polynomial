@@ -1,9 +1,9 @@
+
 # HTML2Polynomial
 # HTMLを多項式に見立てて計算してみるとどうなるか？
 
 
 ## 方針
---------
 
 1. htmlを多項式にする
   + タグを変数に，文章を定数に置換
@@ -16,14 +16,12 @@
 
 
 ## ファイルについて
---------
 
 実行は 1 と3 が Python，2 がAsir です．
 1 と 3は，htmlGb.py，2 は asirHTML.rr です．
 
 
 ## 簡単な解説(hrmlGB.py)
---------
 
 convertSorce(str_list)
 + 入力：引数str_list は html を1行ずつ string で格納したもの
@@ -42,14 +40,12 @@ convertPolynomial(str_polynomial)
 
 
 ## 簡単な解説(asirHTML.rr)
---------
 
 今回はhtmlGBの出力を決め打ちしているので，変える場合は F の中身を変更する．
 
-
+--------
 
 ## 結果について
---------
 
 example_result.md に簡単な流れと結果を記載．
 
@@ -59,7 +55,6 @@ example_result.md に簡単な流れと結果を記載．
 
 
 ## 参考にならない解説
---------
 
 手前味噌ですが，[グレブナ基底の解説](https://kakesoba2626.wordpress.com/)を作ってます．
 
